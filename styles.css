@@ -1,0 +1,143 @@
+h1{
+  font-family: 'Heebo', sans-serif;
+}
+@supports (-webkit-text-stroke: 1px black){}
+.outlined-header{
+  -webkit-text-stroke: 1px black;
+  color: white;
+  
+}
+#my-work{
+  text-align: center;
+  font-size: 5em;
+}
+}
+#my-work{
+  text-align: center;
+  font-size: 5em;
+}
+.emphasized-text{
+  color: #8A07FA;
+}
+.site-header{
+  width: 45em;
+  height: 15em;
+  position: relative;
+  margin: auto;
+  margin-top: 5vh;
+  display: grid;
+  grid-template-columns: 15em 30em;
+  grid-template-rows: 3em 1.5em 3em 3em 5em;
+  grid-template-areas: "img title"
+                        "img ."
+                        'img bio'
+                        "img ."
+                        "img links";
+  column-gap: 1em;
+}
+.bio-links{
+  grid-area: links;
+}
+.bio-links li{
+  font-family: 'Arvo', serif;
+  margin-left: 10%;
+  list-style: none;
+  display: inline;
+  transition: transform 0.2s;
+}
+.bio-links li:hover{
+  transform: scale(1.5);
+}
+button{
+  padding: 1em;
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: 1px 1px #89a1b3;
+  transition-property: transform, background-color;
+  transition-duration: .5s;
+  font-family: 'Arvo', serif;
+  border-radius: 5px;
+  transition:
+}
+button:hover{
+  transform: scale(1.2);
+  background-color: #8A07FA;
+}
+button:hover a{
+  color: white;
+}
+button a{
+  width: 100%
+  height: 100%;
+  color: #8A07FA;
+  text-decoration: none;
+}
+#profile-pic{
+  box-shadow: 1px 2px;
+  border: 5px solid #8A07FA;
+  grid-area: img;
+  width: 15em;
+  height: 15em;
+  margin: 0 5em 3em 0;
+  background-image: url("img/profile-pic.jpg");
+  background-size: cover;
+  border-radius: 100%;
+}
+.intro-title{
+  position: relative;
+  left: .4em;
+  font-family: 'Heebo', sans-serif;
+  margin: 0;
+  font-weight: 800;
+  font-size: 1.5em;
+  grid-area: title;
+}
+#bio-main-text{
+  position: relative;
+  left: .5em;
+  font-family: 'Arvo', serif;
+  text-align: left;
+  font-size: 1.25em;
+}
+.bio{
+  text-align: center;
+  grid-area: bio;
+}
+.bio ul{
+}
+.bio li{
+  display: inline;
+}
+.social-links{
+  height: 5em;
+  width: 45em;
+  position: relative;
+  top: 1em;
+  margin: auto;
+}
+.social-list{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.social-item a{
+  color: black;
+}
+.social-item{
+  display: inline;
+  font-family: 'Arvo', serif;
+  transition-property: : transform, color;
+  transition-duration: .4s;
+}
+.social-item a{
+  text-decoration: none
+}
+i{
+  margin-right: .25em;
+}
+.social-item:hover{
+  transform: scale(1.25);
+}
+.social-item:hover a{
+  color: #8A07FA;
+}
