@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
     <script src="https://use.fontawesome.com/2666feafd9.js"></script>
     <meta charset="utf-8">
-    <title></title>
+    <title>David M. Deloso</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Heebo:wght@100;300;400;800&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@700;900&family=Noto+Sans+KR:wght@700&display=swap" rel="stylesheet">
   </head>
@@ -57,14 +59,14 @@
       <div class="project-image" id="dillo-homepage">
       </div>
       <h2 class="project-subhed outlined-header">interactive news</h2>
-      <h1 class="project-title">Dillo Day 2019 Arist Guide</h1>
+      <h1 class="project-title">Dillo Day 2019 Artist Guide</h1>
       <p class="project-description">Dillo Day is the largest student-run music festival in the country, held
 annualy at Northwestern University. I organized and developed a guide
 with everything you need to know about the artists in  2019’s lineup.</p>
 <div class="read-more"><a href="#"><h2>read more </h2><i class="fa fa-arrow-right fa-lg"></i></a>
     </div>
     </div>
-    <div class="homepage-project" id="voter-valet">
+    <div data-aos="fade-right" class="homepage-project" id="voter-valet">
       <div class="project-image" id="voter-homepage">
       </div>
       <h2 class="project-subhed outlined-header">service design</h2>
@@ -72,10 +74,10 @@ with everything you need to know about the artists in  2019’s lineup.</p>
       <p class="project-description">For a human-centered service design class at Northwestern, I worked
 in a group of three to rethink the absentee voting process and increase
 student voter turnout by bringing the vote directly to clubs.</p>
-<div class="read-more"><a href="#"><h2>read more </h2><i class="fa fa-arrow-right fa-lg"></i></a>
+<div class="read-more"><a href="projects/voting.html"><h2>read more </h2><i class="fa fa-arrow-right fa-lg"></i></a>
     </div>
     </div>
-    <div class="homepage-project" id="country-nuazn">
+    <div data-aos="fade-right" class="homepage-project" id="country-nuazn">
       <div class="project-image" id="nuazn-homepage">
       </div>
       <h2 class="project-subhed outlined-header">feature writing</h2>
@@ -86,7 +88,7 @@ with a branch in Chicago for NU Asian Magazine’s “Food” issue.</p>
 <div class="read-more"><a href="#"><h2>read more </h2><i class="fa fa-arrow-right fa-lg"></i></a>
     </div>
     </div>
-    <div class="homepage-project" id="eeyagi">
+    <div data-aos="fade-right" class="homepage-project" id="eeyagi">
       <div class="project-image" id="eeyagi-homepage">
       </div>
       <h2 class="project-subhed outlined-header">graphic design</h2>
@@ -98,7 +100,7 @@ including a banner, social cover and poster.</p>
 <div class="read-more"><a href="#"><h2>read more </h2><i class="fa fa-arrow-right fa-lg"></i></a>
     </div>
     </div>
-    <div class="homepage-project" id="photography">
+    <div data-aos="fade-right" class="homepage-project" id="photography">
       <div class="project-image" id="photos-homepage">
       </div>
       <h2 class="project-subhed outlined-header">photography</h2>
@@ -110,7 +112,7 @@ Click here to view a gallery of some of my favorite shots.</p>
 <div class="read-more"><a href="#"><h2>read more </h2><i class="fa fa-arrow-right fa-lg"></i></a>
     </div>
     </div>
-    <div class="homepage-project" id="second-generasian">
+    <div data-aos="fade-right" class="homepage-project" id="second-generasian">
       <div class="project-image" id="podcast-homepage">
       </div>
       <h2 class="project-subhed outlined-header">audio</h2>
@@ -122,5 +124,17 @@ and through your favorite podcast app.</p>
 <div class="read-more"><a href="#"><h2>read more </h2><i class="fa fa-arrow-right fa-lg"></i></a>
     </div>
     </div>
+
+    <footer class="site-footer">
+      <p>Site designed and developed by David Deloso.</p> <p>© 2020 David Michael Deloso</p>
+    </footer>
   </body>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+  AOS.init(
+    {
+        offset: 20, // offset (in px) from the original trigger point
+    }
+  );
+</script>
 </html>
