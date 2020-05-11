@@ -430,7 +430,7 @@ transform: scale(1.5);
 /* About Page */
 .bio-expanded{
   position: relative;
-  top: 3em;
+  top: 5em;
   width: 50em;
   height: 25em;
   margin: auto;
@@ -464,6 +464,8 @@ transform: scale(1.5);
 }
 .about-me-contact{
   position: relative;
+  margin-top: 6em;
+  margin-bottom: 0;
   top: 6em;
   text-align: center;
 }
