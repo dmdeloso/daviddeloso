@@ -499,3 +499,57 @@ transform: scale(1.5);
 .bottom-gallery{
   margin-bottom: 5vh;
 }
+@media screen and (max-width: 1000px){
+  .site-header{
+    width: 90vw;
+    position: relative;
+    margin: auto;
+    margin-top: 10vh;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-auto-rows: min-content;
+    grid-template-areas:
+        "img"
+        "."
+        'bio'
+        "."
+        "links";
+    column-gap: 1em;
+    margin-bottom: 50vh;
+  }
+  .bio{
+    width: 60vw;
+    margin: auto;
+  }
+  #profile-pic {
+    box-shadow: 2px 2px 2px rgba(68, 68, 68, 0.6);
+    border: 5px solid var(--theme-color);
+    grid-area: img;
+    margin-left: 15%;
+    background-image: url(img/profile-pic.jpg);
+    background-size: cover;
+    border-radius: 100%;
+}
+.social-links{
+  display: none;
+}
+.bio-links{
+  margin: auto;
+}
+.homepage-project{
+  display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20fr 1fr 2fr 3fr 4fr;
+    grid-template-areas:
+        "img"
+        "subhead"
+        "project-title"
+        "desc"
+        "read-more";
+    width: 90vw;
+    height: 40em;
+    margin: 5em auto;
+}
+}
+}
